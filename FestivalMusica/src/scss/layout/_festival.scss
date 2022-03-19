@@ -6,13 +6,18 @@
     @include m.tablet {
         @include m.grid(2, 5rem)
     }
+    .imagen {
+        border-radius: 10px;
+    }
+
 }
+
 
 .contenido-festival {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    
     margin-top: 5rem;
     @include m.tablet {
         margin-top: 0;
